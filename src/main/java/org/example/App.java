@@ -3,56 +3,45 @@ package org.example;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+import java.util.Scanner;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Lock;
 
-/**
- * Hello world!
- */
 public class App {
     private static final Logger log = LogManager.getLogger();
 
-    private static final RandomLockProvider lockProvider = new RandomLockProvider();
+    private static final int LOCKS_NUMBER = 5;
 
-    public static void main(String[] args) throws InterruptedException {
-        log.info("Hello World");
-        ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(2); // todo try with resources?
-        executor.scheduleAtFixedRate(new LocksAcquiringTask(), 0, 10, TimeUnit.SECONDS);
-        log.info("started a new task");
-        executor.scheduleAtFixedRate(new LocksAcquiringTask(), 0, 5, TimeUnit.SECONDS);
-        log.info("started a new task");
+    private static final RandomLockProvider lockProvider = new RandomLockProvider(LOCKS_NUMBER);
 
-        while (true) {
-            log.info("{} in queue", executor.getQueue().size());
-            Thread.sleep(Duration.ofSeconds(10));
+    public static void main(String[] args) {
+        List<LocksAcquiringTask> tasks = initializeTasks();
+        if (tasks.isEmpty()) return;
+
+        ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(tasks.size());
+        for (LocksAcquiringTask task : tasks) {
+            log.debug("starting new task with params: {}", task.toString());
+            executor.scheduleAtFixedRate(task, 0, task.getPeriodTime(), TimeUnit.SECONDS);
         }
     }
 
-
-    private static class LocksAcquiringTask implements Runnable {
-        Random r = new Random();
-
-        @Override
-        public void run() {
-            log.info("acquiring locks");
-            List<Lock> lockedLocks = lockProvider.lock(2);
-            log.info("{} locks acquired", lockedLocks.size());
-
-            int waitInterval = r.nextInt(3, 12);
-            log.info("waiting for {} secs", waitInterval);
-            
-            try {
-                Thread.sleep(Duration.ofSeconds(waitInterval));
-            } catch (InterruptedException e) {
-                log.error("interrupted");
+    private static List<LocksAcquiringTask> initializeTasks() {
+        List<LocksAcquiringTask> tasks = new ArrayList<>();
+        try (Scanner scanner = new Scanner(App.class.getClassLoader().getResourceAsStream("threads_params.txt"))) {
+            while (scanner.hasNextInt()) {
+                int minWaitTime = scanner.nextInt();
+                int maxWaitTime = scanner.nextInt();
+                int periodTime = scanner.nextInt();
+                int locksToAcquire = scanner.nextInt();
+                tasks.add(new LocksAcquiringTask(minWaitTime, maxWaitTime, periodTime, locksToAcquire, lockProvider));
             }
-            
-            log.info("finished waiting; releasing locks");
-            lockProvider.unlock(lockedLocks);
+        } catch (Exception e) {
+            tasks.clear();
+            log.error("couldn't properly initialize tasks", e);
         }
+
+        return tasks;
     }
 }

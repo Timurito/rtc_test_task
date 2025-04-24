@@ -18,7 +18,6 @@
     </Appenders>
 
     <Loggers>
-<!--        <Logger name="com.mycompany" level="INFO"/>-->
         <Root level="debug">
             <AppenderRef ref="CONSOLE"/>
             <AppenderRef ref="FILE"/>
