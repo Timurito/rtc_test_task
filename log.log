@@ -1,0 +1,270 @@
+14:36:30,00856 INFO  [main]: Hello World
+14:36:30,00870 INFO  [main]: started a new task
+14:36:30,00871 INFO  [pool-2-thread-1]: started run()
+14:36:30,00895 INFO  [pool-2-thread-1]: waiting for 1 secs
+14:36:31,00897 INFO  [pool-2-thread-1]: finished
+14:36:34,00881 INFO  [pool-2-thread-1]: started run()
+14:36:34,00881 INFO  [pool-2-thread-1]: waiting for 1 secs
+14:36:35,00895 INFO  [pool-2-thread-1]: finished
+14:37:29,00709 INFO  [main]: Hello World
+14:37:29,00723 INFO  [main]: started a new task
+14:37:29,00724 INFO  [pool-2-thread-1]: started run()
+14:37:29,00747 INFO  [pool-2-thread-1]: waiting for 6 secs
+14:37:35,00757 INFO  [pool-2-thread-1]: finished
+14:37:35,00758 INFO  [pool-2-thread-1]: started run()
+14:37:35,00758 INFO  [pool-2-thread-1]: waiting for 1 secs
+14:37:36,00772 INFO  [pool-2-thread-1]: finished
+14:37:37,00723 INFO  [pool-2-thread-1]: started run()
+14:37:37,00723 INFO  [pool-2-thread-1]: waiting for 1 secs
+14:37:38,00731 INFO  [pool-2-thread-1]: finished
+14:37:41,00736 INFO  [pool-2-thread-1]: started run()
+14:37:41,00736 INFO  [pool-2-thread-1]: waiting for 3 secs
+14:37:44,00738 INFO  [pool-2-thread-1]: finished
+14:37:45,00728 INFO  [pool-2-thread-1]: started run()
+14:37:45,00728 INFO  [pool-2-thread-1]: waiting for 4 secs
+14:37:49,00743 INFO  [pool-2-thread-1]: finished
+14:37:49,00743 INFO  [pool-2-thread-1]: started run()
+14:37:49,00743 INFO  [pool-2-thread-1]: waiting for 5 secs
+14:40:49,00182 INFO  [main]: Hello World
+14:40:49,00190 INFO  [main]: started a new task
+14:40:49,00190 INFO  [pool-2-thread-1]: started run()
+14:40:49,00202 INFO  [main]: 0 in queue
+14:40:49,00202 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:40:59,00214 INFO  [pool-2-thread-1]: finished
+14:40:59,00214 INFO  [main]: 0 in queue
+14:40:59,00214 INFO  [pool-2-thread-1]: started run()
+14:40:59,00215 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:41:09,00227 INFO  [pool-2-thread-1]: finished
+14:41:09,00227 INFO  [pool-2-thread-1]: started run()
+14:41:09,00227 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:41:19,00239 INFO  [pool-2-thread-1]: finished
+14:41:19,00239 INFO  [pool-2-thread-1]: started run()
+14:41:19,00239 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:42:56,00474 INFO  [main]: Hello World
+14:42:56,00481 INFO  [main]: started a new task
+14:42:56,00482 INFO  [main]: started a new task
+14:42:56,00482 INFO  [pool-2-thread-1]: started run()
+14:42:56,00483 INFO  [pool-2-thread-2]: started run()
+14:42:56,00494 INFO  [main]: 1 in queue
+14:42:56,00494 INFO  [pool-2-thread-2]: waiting for 10 secs
+14:42:56,00494 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:43:06,00496 INFO  [pool-2-thread-2]: finished
+14:43:06,00496 INFO  [pool-2-thread-2]: started run()
+14:43:06,00496 INFO  [pool-2-thread-2]: waiting for 10 secs
+14:43:06,00504 INFO  [pool-2-thread-1]: finished
+14:43:06,00504 INFO  [main]: 0 in queue
+14:43:06,00504 INFO  [pool-2-thread-1]: started run()
+14:43:06,00504 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:43:16,00504 INFO  [pool-2-thread-2]: finished
+14:43:16,00504 INFO  [pool-2-thread-2]: started run()
+14:43:16,00504 INFO  [pool-2-thread-2]: waiting for 10 secs
+14:43:16,00505 INFO  [main]: 0 in queue
+14:43:16,00520 INFO  [pool-2-thread-1]: finished
+14:43:16,00520 INFO  [pool-2-thread-1]: started run()
+14:43:16,00520 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:43:26,00510 INFO  [pool-2-thread-2]: finished
+14:43:26,00510 INFO  [main]: 0 in queue
+14:43:26,00510 INFO  [pool-2-thread-2]: started run()
+14:43:26,00510 INFO  [pool-2-thread-2]: waiting for 10 secs
+14:43:26,00525 INFO  [pool-2-thread-1]: finished
+14:43:26,00525 INFO  [pool-2-thread-1]: started run()
+14:43:26,00525 INFO  [pool-2-thread-1]: waiting for 10 secs
+14:43:36,00515 INFO  [main]: 0 in queue
+14:43:36,00515 INFO  [pool-2-thread-2]: finished
+14:43:36,00515 INFO  [pool-2-thread-2]: started run()
+14:43:36,00516 INFO  [pool-2-thread-2]: waiting for 10 secs
+14:43:36,00531 INFO  [pool-2-thread-1]: finished
+14:43:36,00531 INFO  [pool-2-thread-1]: started run()
+14:43:36,00531 INFO  [pool-2-thread-1]: waiting for 10 secs
+15:11:49,00480 INFO  [main]: Hello World
+15:11:49,00487 INFO  [main]: started a new task
+15:11:49,00487 INFO  [main]: started a new task
+15:11:49,00487 INFO  [pool-2-thread-1]: acquiring locks
+15:11:49,00488 INFO  [pool-2-thread-2]: acquiring locks
+15:11:49,00506 INFO  [main]: 1 in queue
+15:11:49,00506 INFO  [pool-2-thread-1]: 2 locks acquired
+15:11:49,00507 INFO  [pool-2-thread-1]: waiting for 9 secs
+15:11:49,00507 INFO  [pool-2-thread-2]: 2 locks acquired
+15:11:49,00508 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:11:59,00507 INFO  [main]: 0 in queue
+15:11:59,00523 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:11:59,00523 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:11:59,00523 INFO  [pool-2-thread-2]: acquiring locks
+15:11:59,00523 INFO  [pool-2-thread-1]: acquiring locks
+15:11:59,00523 INFO  [pool-2-thread-2]: 2 locks acquired
+15:11:59,00524 INFO  [pool-2-thread-2]: waiting for 6 secs
+15:11:59,00524 INFO  [pool-2-thread-1]: 2 locks acquired
+15:11:59,00524 INFO  [pool-2-thread-1]: waiting for 8 secs
+15:12:09,00513 INFO  [main]: 0 in queue
+15:12:09,00529 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:12:09,00529 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:12:09,00529 INFO  [pool-2-thread-2]: acquiring locks
+15:12:09,00529 INFO  [pool-2-thread-1]: acquiring locks
+15:12:09,00529 INFO  [pool-2-thread-2]: 2 locks acquired
+15:12:09,00530 INFO  [pool-2-thread-1]: 2 locks acquired
+15:12:09,00530 INFO  [pool-2-thread-2]: waiting for 11 secs
+15:12:09,00530 INFO  [pool-2-thread-1]: waiting for 3 secs
+15:12:19,00519 INFO  [main]: 0 in queue
+15:12:19,00535 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:12:19,00535 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:12:19,00535 INFO  [pool-2-thread-2]: acquiring locks
+15:12:19,00535 INFO  [pool-2-thread-1]: acquiring locks
+15:12:19,00536 INFO  [pool-2-thread-2]: 2 locks acquired
+15:12:19,00536 INFO  [pool-2-thread-2]: waiting for 9 secs
+15:12:19,00536 INFO  [pool-2-thread-1]: 0 locks acquired
+15:12:19,00536 INFO  [pool-2-thread-1]: waiting for 9 secs
+15:12:29,00521 INFO  [main]: 0 in queue
+15:12:29,00551 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:12:29,00551 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:12:29,00551 INFO  [pool-2-thread-2]: acquiring locks
+15:12:29,00551 INFO  [pool-2-thread-1]: acquiring locks
+15:12:29,00551 INFO  [pool-2-thread-2]: 2 locks acquired
+15:12:29,00551 INFO  [pool-2-thread-1]: 2 locks acquired
+15:12:29,00552 INFO  [pool-2-thread-1]: waiting for 5 secs
+15:12:29,00552 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:12:39,00531 INFO  [main]: 0 in queue
+15:12:39,00562 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:12:39,00562 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:12:39,00562 INFO  [pool-2-thread-1]: acquiring locks
+15:12:39,00562 INFO  [pool-2-thread-2]: acquiring locks
+15:12:39,00562 INFO  [pool-2-thread-1]: 2 locks acquired
+15:12:39,00562 INFO  [pool-2-thread-2]: 0 locks acquired
+15:12:39,00563 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:12:39,00563 INFO  [pool-2-thread-1]: waiting for 9 secs
+15:13:51,00611 INFO  [main]: Hello World
+15:13:51,00620 INFO  [main]: started a new task
+15:13:51,00620 INFO  [main]: started a new task
+15:13:51,00620 INFO  [pool-2-thread-1]: acquiring locks
+15:13:51,00621 INFO  [pool-2-thread-2]: acquiring locks
+15:13:51,00634 INFO  [pool-2-thread-2]: 2 locks acquired
+15:13:51,00634 INFO  [main]: 1 in queue
+15:13:51,00635 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:13:51,00635 INFO  [pool-2-thread-1]: 2 locks acquired
+15:13:51,00635 INFO  [pool-2-thread-1]: waiting for 10 secs
+15:13:54,00637 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:13:56,00631 INFO  [pool-2-thread-2]: acquiring locks
+15:13:56,00631 INFO  [pool-2-thread-2]: 0 locks acquired
+15:13:56,00631 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:14:01,00638 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:01,00638 INFO  [main]: 0 in queue
+15:14:01,00638 INFO  [pool-2-thread-1]: acquiring locks
+15:14:01,00639 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:01,00639 INFO  [pool-2-thread-1]: waiting for 3 secs
+15:14:04,00636 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:04,00636 INFO  [pool-2-thread-2]: acquiring locks
+15:14:04,00636 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:04,00636 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:14:04,00652 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:11,00624 INFO  [pool-2-thread-1]: acquiring locks
+15:14:11,00624 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:11,00624 INFO  [pool-2-thread-1]: waiting for 7 secs
+15:14:11,00641 INFO  [main]: 0 in queue
+15:14:12,00642 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:12,00642 INFO  [pool-2-thread-2]: acquiring locks
+15:14:12,00642 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:12,00643 INFO  [pool-2-thread-2]: waiting for 7 secs
+15:14:18,00634 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:19,00652 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:19,00652 INFO  [pool-2-thread-2]: acquiring locks
+15:14:19,00652 INFO  [pool-2-thread-2]: 2 locks acquired
+15:14:19,00653 INFO  [pool-2-thread-2]: waiting for 6 secs
+15:14:21,00629 INFO  [pool-2-thread-1]: acquiring locks
+15:14:21,00630 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:21,00631 INFO  [pool-2-thread-1]: waiting for 10 secs
+15:14:21,00644 INFO  [main]: 0 in queue
+15:14:25,00656 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:25,00656 INFO  [pool-2-thread-2]: acquiring locks
+15:14:25,00656 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:25,00657 INFO  [pool-2-thread-2]: waiting for 6 secs
+15:14:31,00644 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:31,00645 INFO  [pool-2-thread-1]: acquiring locks
+15:14:31,00645 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:31,00645 INFO  [pool-2-thread-1]: waiting for 7 secs
+15:14:31,00660 INFO  [main]: 0 in queue
+15:14:31,00660 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:31,00660 INFO  [pool-2-thread-2]: acquiring locks
+15:14:31,00660 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:31,00661 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:14:38,00660 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:39,00677 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:39,00677 INFO  [pool-2-thread-2]: acquiring locks
+15:14:39,00677 INFO  [pool-2-thread-2]: 2 locks acquired
+15:14:39,00678 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:14:41,00629 INFO  [pool-2-thread-1]: acquiring locks
+15:14:41,00629 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:41,00629 INFO  [pool-2-thread-1]: waiting for 11 secs
+15:14:41,00661 INFO  [main]: 0 in queue
+15:14:42,00688 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:42,00688 INFO  [pool-2-thread-2]: acquiring locks
+15:14:42,00688 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:42,00689 INFO  [pool-2-thread-2]: waiting for 4 secs
+15:14:46,00695 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:46,00695 INFO  [pool-2-thread-2]: acquiring locks
+15:14:46,00695 INFO  [pool-2-thread-2]: 2 locks acquired
+15:14:46,00696 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:14:49,00703 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:49,00703 INFO  [pool-2-thread-2]: acquiring locks
+15:14:49,00703 INFO  [pool-2-thread-2]: 0 locks acquired
+15:14:49,00703 INFO  [pool-2-thread-2]: waiting for 8 secs
+15:14:51,00663 INFO  [main]: 0 in queue
+15:14:52,00636 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:52,00636 INFO  [pool-2-thread-1]: acquiring locks
+15:14:52,00636 INFO  [pool-2-thread-1]: 2 locks acquired
+15:14:52,00636 INFO  [pool-2-thread-1]: waiting for 5 secs
+15:14:57,00640 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:14:57,00718 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:14:57,00718 INFO  [pool-2-thread-2]: acquiring locks
+15:14:57,00718 INFO  [pool-2-thread-2]: 2 locks acquired
+15:14:57,00719 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:15:00,00726 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:15:00,00727 INFO  [pool-2-thread-1]: acquiring locks
+15:15:00,00727 INFO  [pool-2-thread-1]: 2 locks acquired
+15:15:00,00727 INFO  [pool-2-thread-1]: waiting for 9 secs
+15:15:01,00631 INFO  [pool-2-thread-2]: acquiring locks
+15:15:01,00631 INFO  [pool-2-thread-2]: 2 locks acquired
+15:15:01,00631 INFO  [pool-2-thread-2]: waiting for 9 secs
+15:15:01,00677 INFO  [main]: 0 in queue
+15:15:09,00736 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:09,00737 INFO  [pool-2-thread-1]: acquiring locks
+15:15:09,00738 INFO  [pool-2-thread-1]: 0 locks acquired
+15:15:09,00738 INFO  [pool-2-thread-1]: waiting for 10 secs
+15:15:10,00645 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:15:11,00634 INFO  [pool-2-thread-2]: acquiring locks
+15:15:11,00634 INFO  [pool-2-thread-2]: 2 locks acquired
+15:15:11,00634 INFO  [pool-2-thread-2]: waiting for 10 secs
+15:15:11,00680 INFO  [main]: 0 in queue
+15:15:19,00741 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:19,00741 INFO  [pool-2-thread-1]: acquiring locks
+15:15:19,00741 INFO  [pool-2-thread-1]: 0 locks acquired
+15:15:19,00741 INFO  [pool-2-thread-1]: waiting for 3 secs
+15:15:21,00650 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:15:21,00650 INFO  [pool-2-thread-2]: acquiring locks
+15:15:21,00650 INFO  [pool-2-thread-2]: 2 locks acquired
+15:15:21,00651 INFO  [pool-2-thread-2]: waiting for 10 secs
+15:15:21,00681 INFO  [main]: 0 in queue
+15:15:22,00756 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:22,00756 INFO  [pool-2-thread-1]: acquiring locks
+15:15:22,00756 INFO  [pool-2-thread-1]: 0 locks acquired
+15:15:22,00757 INFO  [pool-2-thread-1]: waiting for 3 secs
+15:15:25,00771 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:25,00771 INFO  [pool-2-thread-1]: acquiring locks
+15:15:25,00771 INFO  [pool-2-thread-1]: 0 locks acquired
+15:15:25,00771 INFO  [pool-2-thread-1]: waiting for 6 secs
+15:15:31,00658 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:15:31,00658 INFO  [pool-2-thread-2]: acquiring locks
+15:15:31,00658 INFO  [pool-2-thread-2]: 2 locks acquired
+15:15:31,00659 INFO  [pool-2-thread-2]: waiting for 3 secs
+15:15:31,00689 INFO  [main]: 0 in queue
+15:15:31,00782 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:31,00782 INFO  [pool-2-thread-1]: acquiring locks
+15:15:31,00782 INFO  [pool-2-thread-1]: 2 locks acquired
+15:15:31,00783 INFO  [pool-2-thread-1]: waiting for 8 secs
+15:15:34,00670 INFO  [pool-2-thread-2]: finished waiting; releasing locks
+15:15:39,00788 INFO  [pool-2-thread-1]: finished waiting; releasing locks
+15:15:39,00788 INFO  [pool-2-thread-1]: acquiring locks
+15:15:39,00788 INFO  [pool-2-thread-1]: 2 locks acquired
+15:15:39,00789 INFO  [pool-2-thread-1]: waiting for 7 secs
+15:15:41,00622 INFO  [pool-2-thread-2]: acquiring locks
+15:15:41,00622 INFO  [pool-2-thread-2]: 0 locks acquired
+15:15:41,00622 INFO  [pool-2-thread-2]: waiting for 10 secs
+15:15:41,00700 INFO  [main]: 0 in queue
