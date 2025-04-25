@@ -36,7 +36,7 @@ public class LocksAcquiringTask implements Runnable {
         List<Lock> lockedLocks = lockProvider.lock(locksToAcquire);
 
         try {
-            int waitInterval = r.nextInt(waitTimeMin, waitTimeMax);
+            int waitInterval = r.nextInt(waitTimeMin, waitTimeMax + 1);
             LOGGER.info("waiting for {} secs", waitInterval);
 
             Thread.sleep(Duration.ofSeconds(waitInterval));
