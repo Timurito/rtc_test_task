@@ -29,7 +29,7 @@ public class App {
 
     private static List<LocksAcquiringTask> initializeTasks() {
         List<LocksAcquiringTask> tasks = new ArrayList<>();
-        try (Scanner scanner = new Scanner(App.class.getClassLoader().getResourceAsStream("threads_params.txt"))) {
+        try (Scanner scanner = new Scanner(App.class.getClassLoader().getResourceAsStream("threads_params.conf"))) {
             while (scanner.hasNextInt()) {
                 int minWaitTime = scanner.nextInt();
                 int maxWaitTime = scanner.nextInt();
